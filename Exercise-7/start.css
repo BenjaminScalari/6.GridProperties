@@ -1,0 +1,75 @@
+#container,
+.ul-container {
+  display: grid;
+}
+
+#container {
+  grid-template-areas:
+    "green green green green green green"
+    "yellow yellow red red blue blue"
+    "yellow yellow red red blue blue"
+    "orange orange orange orange blue blue";
+}
+
+#green {
+  grid-area: green;
+}
+
+#yellow {
+  grid-area: yellow;
+}
+
+#orange {
+  grid-area: orange;
+}
+
+#red {
+  grid-area: red;
+}
+
+#blue {
+  grid-area: blue;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+ #four {
+  grid-area: four;
+ }
+
+ .numbers {
+  grid-template-areas: 
+  "one one two two"
+  "three three four four"
+ }
+
+ #a {
+  grid-area: a;
+ }
+
+ #b {
+  grid-area: b;
+ }
+
+ #c {
+  grid-area: c;
+ }
+
+ #d {
+  grid-area: d;
+ }
+
+ .letters {
+  grid-template-areas: 
+  "a a b b"
+  "c c d d"
+ }
